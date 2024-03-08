@@ -1,1 +1,1 @@
-# LearnigJournal
+# LearningJournal

@@ -33,7 +33,7 @@ public class UserController {
     @GetMapping("/users/new")
     public String createUserForm(Model model){
         UserEntity user = new UserEntity();
-        model.addAttribute("user", user);
+        model.addAttribute("user",user);
         return "users-create";
     }
     @PostMapping("/users/new")

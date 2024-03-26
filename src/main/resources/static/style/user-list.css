@@ -1,0 +1,40 @@
+/* Style the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Style the table header */
+table thead {
+    background-color: #f2f2f2;
+}
+
+/* Style the table header cells */
+table th {
+    padding: 15px;
+    text-align: left;
+    background-color: grey;
+    color: #111111;
+}
+
+/* Style the table body cells */
+table td {
+    padding: 15px;
+    text-align: left;
+}
+
+/* Style the table rows */
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+/* Style the h2 element */
+h2 {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}

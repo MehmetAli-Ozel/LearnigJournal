@@ -1,0 +1,47 @@
+/* Add some basic styles for navigation bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    margin-top: 6.45%; /* Adjust this value as needed */
+    z-index: 1;
+}
+
+li {
+    float: left;
+    z-index: 2;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    z-index: 2;
+}
+
+/* Change color of links on hover */
+li a:hover {
+    background-color: #111;
+}
+
+/* Float the logo to the left and set its width */
+img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 6.25%;
+    z-index: 3;
+}
+
+/* Position the h1 to the right of the logo */
+h1 {
+    position: absolute;
+    left: 6.25%; /* This should be the same as the width of the logo */
+    top: 0;
+    color: blue;
+    z-index: 3;
+}
